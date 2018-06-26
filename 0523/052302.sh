@@ -1,2 +1,5 @@
-sudo find . -type f | sudo xargs du -b | sort -n | tac | head -n 5
+#!/bin/bash
+
+find ~ -type f | xargs du -b | sort -rn | head -n5
+
 

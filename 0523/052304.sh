@@ -1,4 +1,1 @@
-sudo find /etc -type f -print | sudo xargs du -b | sort -n | tac | head -n 5
-
-
-
+sudo find /etc -type f | sudo xargs du -b | sort -rn | head -n 5

@@ -1,6 +1,3 @@
-find /home/vagrant -type f | xargs sudo du -b /home/vagrant/* | sort -n | head -n 5
+#!/bin/bash
 
-
-
-
-
+find ~ -type f | xargs du -b | sort -n | head -n 5
